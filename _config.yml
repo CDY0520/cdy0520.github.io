@@ -16,9 +16,9 @@ timezone:
 
 title: CHOI.DA # the main title
 
-tagline: 단순 요점정리 보다는 공부하며 얻은 인사이트 기록을 지향합니다. # it will display as the subtitle
+tagline: 요점정리 보다는 공부하며 얻은 인사이트 기록을 지향합니다. # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
+description: >-CHOI.DA | 단순한 지식 전달을 넘어, 공부하는 과정에서 얻은 인사이트와 문제 해결 과정을 기록하는 기술 블로그입니다. # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # Fill in the protocol & hostname for your site.
@@ -34,12 +34,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Dayeon Choi
+  email: chdy2020@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/CDY0520 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -224,3 +224,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
