@@ -1,23 +1,8 @@
 ---
-# 이 설정이 있어야 Jekyll이 CSS를 정상적으로 처리합니다.
 ---
-
 @import "main";
 
-/* 사이드바 제외 메인 컨텐츠 영역의 헤더 가운데 정렬 */
-#main-wrapper {
-  .d-flex.flex-column.flex-grow-1 {
-    align-items: center !important; /* 가로 중앙 정렬 강제 */
-    text-align: center !important;
-  }
-
-  #topbar-title {
-    text-align: center;
-    width: 100%;
-  }
-
-  /* 태그라인(소개글) 정렬 */
-  .p-l-0.p-r-0 {
-    text-align: center !important;
-  }
+#main-wrapper .d-flex.flex-column.flex-grow-1 {
+  align-items: center !important;
+  text-align: center !important;
 }
