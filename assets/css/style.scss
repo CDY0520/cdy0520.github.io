@@ -1,36 +1,12 @@
 ---
-# 이 설정은 절대 지우지 마세요.
 ---
 
-@import "main";
+/*
+  If the number of TAB files has changed, the following variable is required.
+  And it must be defined before `@import`.
+*/
+$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 
-/* 사이드바 내부 프로필 영역 전체 가운데 정렬 */
-#sidebar {
-  .sidebar-top {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+@import "{{ site.theme }}";
 
-  /* 타이틀(CHOI.DA) 정렬 */
-  #sidebar-title {
-    margin-left: 0 !important;
-    a {
-      justify-content: center !important;
-    }
-  }
-
-  /* 태그라인(소개글) 정렬 */
-  .sidebar-tagline {
-    padding: 0 1rem !important;
-  }
-}
-
-/* 모바일 상단바 타이틀 정렬 */
-#topbar-title {
-  text-align: center !important;
-  width: 100% !important;
-}
+/* append your custom style below */
