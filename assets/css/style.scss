@@ -1,12 +1,35 @@
 ---
 ---
 
-/*
-  If the number of TAB files has changed, the following variable is required.
-  And it must be defined before `@import`.
-*/
-$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
-
+$tab-count: {{ site.tabs | size | plus: 1 }};
 @import "{{ site.theme }}";
 
-/* append your custom style below */
+/* 사이드바 상단 요소(사진, 타이틀, 설명)를 수직으로 세우고 가운데 정렬 */
+.sidebar-top {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 타이틀 CHOI.DA의 왼쪽 여백을 없애고 중앙 배치 */
+#sidebar-title {
+  margin-left: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+/* 프로필 이미지(Avatar) 중앙 정렬 */
+#avatar {
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* 모바일 화면 상단 타이틀 정렬 */
+#topbar-title {
+  text-align: center !important;
+  width: 100% !important;
+}
