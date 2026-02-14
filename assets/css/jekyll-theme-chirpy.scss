@@ -1,0 +1,18 @@
+/* 프로필 가운데 정렬 */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 가로 중앙 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+
+  /* 프로필 사진(아바타) */
+  .avatar {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* 사이드바 하단 아이콘 (모드 전환, 소셜 등) */
+  .sidebar-bottom {
+    justify-content: center;
+  }
+}
