@@ -35,4 +35,4 @@ order: 4
 <br>
 <br>
 
-### 배우고(Learn), 달리는(Run)
+### 배우고(Learn), 실행하는(Run)
