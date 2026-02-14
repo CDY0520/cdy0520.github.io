@@ -1,18 +1,14 @@
-/* 프로필 가운데 정렬 */
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 가로 중앙 정렬 */
-  text-align: center; /* 텍스트 중앙 정렬 */
+/* 사이드바 프로필 이미지 & 텍스트 가운데 정렬 */
+#avatar, .profile-wrapper {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  flex-direction: column; /* 이미지와 글자를 세로로 나열 */
+}
 
-  /* 프로필 사진(아바타) */
-  .avatar {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* 사이드바 하단 아이콘 (모드 전환, 소셜 등) */
-  .sidebar-bottom {
-    justify-content: center;
-  }
+#sidebar .site-title, #sidebar .site-subtitle {
+  text-align: center !important;
 }
